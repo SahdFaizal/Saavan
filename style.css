@@ -115,10 +115,10 @@ main {
 
 @media (max-width: 650px) {
     .wrapper {
-        margin: 0 30px;
+        margin: 0 50px;
     }
     .topnav a { 
-        font-size: 13px;
+        font-size: 23px;
     }
 
 }
