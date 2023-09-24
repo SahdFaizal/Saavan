@@ -1,0 +1,142 @@
+.title-style {
+    color: rgb(26, 105, 175);
+    font-family: Algerian;
+    text-align: center;
+}
+.h2-style {
+    color: blue;
+}
+.sub_title-style {
+    color: darkblue;
+}
+
+.question-style {
+    color: rgb(130, 0, 0);
+}
+.logo img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+body {
+    margin: 0;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+}
+
+.text-style {
+    color: rgb(0, 0, 0);
+    font-family: Amasis MT Pro;
+}
+.topnav {
+    background-color: rgb(102, 153, 204);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    background-color: rgb(102, 153, 204);
+    color: black;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Calibri;
+}
+
+.topnav a:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: lightgreen;
+    color: black;
+}
+
+.wrapper {
+    margin:0 100px;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .grid-image {
+    display: block;
+    flex-basis: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .grid-image:hover {
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+}
+
+.full-img {
+    width: 100%;
+    height: 100vh; 
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0; 
+    left: 0;
+    display: none; 
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.full-img img { 
+    width: 90%;
+    max-width: 500px;
+}
+
+.full-img span {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    font-family: calibri;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+main {
+    background-color: lightblue;
+}
+
+@media (max-width: 650px) {
+    .wrapper {
+        margin: 0 30px;
+    }
+    .topnav a { 
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (min-width: 960px) {
+    .grid-image {
+      flex-basis: 33.333%;
+    }
+  }
+   
+  @media only screen and (min-width: 1280px) {
+    .grid-image {
+      flex-basis: 25%;
+    }
+  }
+   
+  @media only screen and (min-width: 1600px) {
+    .grid-image {
+      flex-basis: 20%;
+    }
+  }

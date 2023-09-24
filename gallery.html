@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rain</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <div class="logo"><a href = "#"><img src = "water drop.png"> </a></div>
+
+    </head>
+    <body>
+        <header> <!--this a good pratice to have header, main and footer so it becomes more readeable.-->
+            <div class="topnav">
+                <div class="wrapper">
+                    <a href="homepage.html">Home</a>
+                    <a class="active">Gallery</a>
+                    <a href="description.html">About</a>
+                </div>
+            </div>
+
+        </header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <main>
+            <div class="wrapper">
+                <div class="full-img" id="fullImgBox":>
+                    <img src="1.webp" id="fullImg">
+                    <span onclick="closeFullImg()">X</span>
+                </div>
+                <div class="image-grid">
+                    <img class="grid-image" src="1.webp" width="100px" onclick="openFullImg(this.src)"/>
+                    <img class="grid-image" src="2.webp" width="100px" onclick="openFullImg(this.src)"/>
+                    <img class="grid-image" src="3.webp" width="100px" onclick="openFullImg(this.src)"/>
+                    <img class="grid-image" src="4.webp" width="100px" onclick="openFullImg(this.src)"/>
+                    <img class="grid-image" src="5.webp" width="100px" onclick="openFullImg(this.src)"/>
+                    <img class="grid-image" src="6.webp" width="100px" onclick="openFullImg(this.src)"/>
+                    <img class="grid-image" src="7.webp" width="100px" onclick="openFullImg(this.src)"/>
+
+                </div>
+            </div>  
+        </main>
+        <footer>
+            
+        </footer>
+     <script src="sketch.js"> </script>
+    </body>
+
+</html>
