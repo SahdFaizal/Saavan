@@ -115,14 +115,14 @@ main {
 
 @media (max-width: 650px) {
     .wrapper {
-        margin: 0 50px;
+        margin: 0 60px;
     }
     .topnav a { 
         font-size: 23px;
     }
     .logo img {
         position: absolute;
-        width: 25px;
+        width: 50px;
         margin-top: 15px;
         margin-left: 5px;
     }
