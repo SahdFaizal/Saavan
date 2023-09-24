@@ -120,6 +120,12 @@ main {
     .topnav a { 
         font-size: 23px;
     }
+    .logo img {
+        position: absolute;
+        size: 20px;
+        margin-top: 15px;
+        margin-left: 5px;
+    }
 
 }
 
